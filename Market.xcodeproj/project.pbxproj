@@ -14,6 +14,11 @@
 		AC3F288B1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */; };
 		AC3F288D1D62A0A000703F95 /* RecommendedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */; };
 		AC3F288F1D62A8CB00703F95 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288E1D62A8CB00703F95 /* Item.swift */; };
+		AC3F28951D62B37200703F95 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28901D62B37200703F95 /* WebImage.framework */; };
+		AC3F28961D62B37200703F95 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28911D62B37200703F95 /* APIKit.framework */; };
+		AC3F28971D62B37200703F95 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28921D62B37200703F95 /* Result.framework */; };
+		AC3F28981D62B37200703F95 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28931D62B37200703F95 /* Himotoki.framework */; };
+		AC3F28991D62B37200703F95 /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28941D62B37200703F95 /* FontAwesome.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemsViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemCell.swift; sourceTree = "<group>"; };
 		AC3F288E1D62A8CB00703F95 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AC3F28901D62B37200703F95 /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
+		AC3F28911D62B37200703F95 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		AC3F28921D62B37200703F95 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		AC3F28931D62B37200703F95 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
+		AC3F28941D62B37200703F95 /* FontAwesome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome.framework; path = Carthage/Build/iOS/FontAwesome.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3F28951D62B37200703F95 /* WebImage.framework in Frameworks */,
+				AC3F28961D62B37200703F95 /* APIKit.framework in Frameworks */,
+				AC3F28971D62B37200703F95 /* Result.framework in Frameworks */,
+				AC3F28981D62B37200703F95 /* Himotoki.framework in Frameworks */,
+				AC3F28991D62B37200703F95 /* FontAwesome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,7 @@
 		AC3F28671D629A4600703F95 = {
 			isa = PBXGroup;
 			children = (
+				AC3F289A1D62CBF400703F95 /* Frameworks */,
 				AC3F28721D629A4600703F95 /* Market */,
 				AC3F28711D629A4600703F95 /* Products */,
 			);
@@ -94,6 +110,18 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		AC3F289A1D62CBF400703F95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F28901D62B37200703F95 /* WebImage.framework */,
+				AC3F28911D62B37200703F95 /* APIKit.framework */,
+				AC3F28921D62B37200703F95 /* Result.framework */,
+				AC3F28931D62B37200703F95 /* Himotoki.framework */,
+				AC3F28941D62B37200703F95 /* FontAwesome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +132,7 @@
 				AC3F286C1D629A4600703F95 /* Sources */,
 				AC3F286D1D629A4600703F95 /* Frameworks */,
 				AC3F286E1D629A4600703F95 /* Resources */,
+				AC3F289B1D62CC7A00703F95 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +188,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC3F289B1D62CC7A00703F95 /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FontAwesome.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/brew/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC3F286C1D629A4600703F95 /* Sources */ = {
@@ -283,6 +334,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Market/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cookpad.ios.Market;
@@ -294,6 +349,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Market/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cookpad.ios.Market;
