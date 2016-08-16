@@ -56,6 +56,9 @@
 		AC3F28721D629A4600703F95 /* Market */ = {
 			isa = PBXGroup;
 			children = (
+				AC3F28891D629A7500703F95 /* ViewController */,
+				AC3F28881D629A6F00703F95 /* View */,
+				AC3F28871D629A6000703F95 /* Model */,
 				AC3F28731D629A4600703F95 /* AppDelegate.swift */,
 				AC3F28751D629A4600703F95 /* FirstViewController.swift */,
 				AC3F28771D629A4600703F95 /* SecondViewController.swift */,
@@ -65,6 +68,27 @@
 				AC3F28811D629A4600703F95 /* Info.plist */,
 			);
 			path = Market;
+			sourceTree = "<group>";
+		};
+		AC3F28871D629A6000703F95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC3F28881D629A6F00703F95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC3F28891D629A7500703F95 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
