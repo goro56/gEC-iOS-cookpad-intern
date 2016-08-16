@@ -11,7 +11,7 @@
 		AC3F287B1D629A4600703F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F28791D629A4600703F95 /* Main.storyboard */; };
 		AC3F287D1D629A4600703F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F287C1D629A4600703F95 /* Assets.xcassets */; };
 		AC3F28801D629A4600703F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F287E1D629A4600703F95 /* LaunchScreen.storyboard */; };
-		AC3F288B1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */; };
+		AC3F288B1D629D7000703F95 /* RecommendedItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288A1D629D7000703F95 /* RecommendedItemsViewController.swift */; };
 		AC3F288D1D62A0A000703F95 /* RecommendedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */; };
 		AC3F288F1D62A8CB00703F95 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288E1D62A8CB00703F95 /* Item.swift */; };
 		AC3F28951D62B37200703F95 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28901D62B37200703F95 /* WebImage.framework */; };
@@ -19,6 +19,9 @@
 		AC3F28971D62B37200703F95 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28921D62B37200703F95 /* Result.framework */; };
 		AC3F28981D62B37200703F95 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28931D62B37200703F95 /* Himotoki.framework */; };
 		AC3F28991D62B37200703F95 /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3F28941D62B37200703F95 /* FontAwesome.framework */; };
+		AC3F289D1D62D16800703F95 /* MarketRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F289C1D62D16800703F95 /* MarketRequestType.swift */; };
+		AC3F289F1D62D21100703F95 /* RecommendedItemsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F289E1D62D21100703F95 /* RecommendedItemsRequest.swift */; };
+		AC3F28A11D62DFD500703F95 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28A01D62DFD500703F95 /* ItemDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +31,7 @@
 		AC3F287C1D629A4600703F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3F287F1D629A4600703F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3F28811D629A4600703F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemsViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		AC3F288A1D629D7000703F95 /* RecommendedItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemsViewController.swift; sourceTree = "<group>"; };
 		AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemCell.swift; sourceTree = "<group>"; };
 		AC3F288E1D62A8CB00703F95 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AC3F28901D62B37200703F95 /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		AC3F28921D62B37200703F95 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		AC3F28931D62B37200703F95 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
 		AC3F28941D62B37200703F95 /* FontAwesome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome.framework; path = Carthage/Build/iOS/FontAwesome.framework; sourceTree = "<group>"; };
+		AC3F289C1D62D16800703F95 /* MarketRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketRequestType.swift; sourceTree = "<group>"; };
+		AC3F289E1D62D21100703F95 /* RecommendedItemsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemsRequest.swift; sourceTree = "<group>"; };
+		AC3F28A01D62DFD500703F95 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				AC3F288E1D62A8CB00703F95 /* Item.swift */,
+				AC3F289C1D62D16800703F95 /* MarketRequestType.swift */,
+				AC3F289E1D62D21100703F95 /* RecommendedItemsRequest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,7 +113,8 @@
 		AC3F28891D629A7500703F95 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */,
+				AC3F288A1D629D7000703F95 /* RecommendedItemsViewController.swift */,
+				AC3F28A01D62DFD500703F95 /* ItemDetailsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -217,8 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3F288F1D62A8CB00703F95 /* Item.swift in Sources */,
-				AC3F288B1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift in Sources */,
+				AC3F288B1D629D7000703F95 /* RecommendedItemsViewController.swift in Sources */,
+				AC3F289F1D62D21100703F95 /* RecommendedItemsRequest.swift in Sources */,
 				AC3F28741D629A4600703F95 /* AppDelegate.swift in Sources */,
+				AC3F289D1D62D16800703F95 /* MarketRequestType.swift in Sources */,
+				AC3F28A11D62DFD500703F95 /* ItemDetailsViewController.swift in Sources */,
 				AC3F288D1D62A0A000703F95 /* RecommendedItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

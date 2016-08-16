@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebImage
 
 class RecommendedItemCell: UITableViewCell {
     @IBOutlet weak var thumbnailImageView: UIImageView!
@@ -18,5 +19,6 @@ class RecommendedItemCell: UITableViewCell {
         nameLabel.text = item.name
         priceLabel.text = "\(item.price)円"
         descriptionLabel.text = item.desc
+        thumbnailImageView.sd_setImageWithURL(item.imageURL)
     }
 }

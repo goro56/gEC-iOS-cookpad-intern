@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import APIKit
 
-class RecommendedItemsViewControllerTableViewController: UITableViewController {
+class RecommendedItemsViewController: UITableViewController {
     
-    let items: [Item] = [
-        Item(id: 1, name: "おたま", desc: "おたまです", price: 100, imageURL: NSURL(string: "http://example.com")!),
-        Item(id: 2, name: "しゃもじ", desc: "しゃもじです", price: 200, imageURL: NSURL(string: "http://example.com")!),
-        Item(id: 3, name: "菜箸", desc: "菜箸です", price: 300, imageURL: NSURL(string: "http://example.com")!),
-    ]
+    var items: [Item] = [] {
+        didSet {
+            tableView.reloadData()
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,31 @@ class RecommendedItemsViewControllerTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let request = RecommendedItemsRequest()
+        Session.sendRequest(request) { result in
+            switch result {
+            case .Success(let response):
+                self.items = response
+            case .Failure(let error):
+                print(error)
+            }
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let destination = segue.destinationViewController as? ItemDetailsViewController {
+            guard let selectedIndexPath = tableView.indexPathForSelectedRow else {
+                return
+            }
+            
+            let item = items[selectedIndexPath.row]
+            destination.itemID = item.id
+        }
     }
 
     override func didReceiveMemoryWarning() {
