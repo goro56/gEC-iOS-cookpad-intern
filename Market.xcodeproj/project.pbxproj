@@ -22,6 +22,7 @@
 		AC3F289D1D62D16800703F95 /* MarketRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F289C1D62D16800703F95 /* MarketRequestType.swift */; };
 		AC3F289F1D62D21100703F95 /* RecommendedItemsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F289E1D62D21100703F95 /* RecommendedItemsRequest.swift */; };
 		AC3F28A11D62DFD500703F95 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28A01D62DFD500703F95 /* ItemDetailsViewController.swift */; };
+		AC3F28A31D62E5E400703F95 /* ItemRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28A21D62E5E400703F95 /* ItemRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		AC3F289C1D62D16800703F95 /* MarketRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketRequestType.swift; sourceTree = "<group>"; };
 		AC3F289E1D62D21100703F95 /* RecommendedItemsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemsRequest.swift; sourceTree = "<group>"; };
 		AC3F28A01D62DFD500703F95 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		AC3F28A21D62E5E400703F95 /* ItemRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				AC3F288E1D62A8CB00703F95 /* Item.swift */,
 				AC3F289C1D62D16800703F95 /* MarketRequestType.swift */,
 				AC3F289E1D62D21100703F95 /* RecommendedItemsRequest.swift */,
+				AC3F28A21D62E5E400703F95 /* ItemRequest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				AC3F288B1D629D7000703F95 /* RecommendedItemsViewController.swift in Sources */,
 				AC3F289F1D62D21100703F95 /* RecommendedItemsRequest.swift in Sources */,
 				AC3F28741D629A4600703F95 /* AppDelegate.swift in Sources */,
+				AC3F28A31D62E5E400703F95 /* ItemRequest.swift in Sources */,
 				AC3F289D1D62D16800703F95 /* MarketRequestType.swift in Sources */,
 				AC3F28A11D62DFD500703F95 /* ItemDetailsViewController.swift in Sources */,
 				AC3F288D1D62A0A000703F95 /* RecommendedItemCell.swift in Sources */,

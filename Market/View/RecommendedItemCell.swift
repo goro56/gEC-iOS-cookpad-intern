@@ -10,6 +10,8 @@ import UIKit
 import WebImage
 
 class RecommendedItemCell: UITableViewCell {
+    static let height: CGFloat = 96
+    
     @IBOutlet weak var thumbnailImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
