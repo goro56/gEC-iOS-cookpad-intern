@@ -8,6 +8,7 @@
 
 import UIKit
 import APIKit
+import FontAwesome
 
 class ItemDetailsViewController: UIViewController {
     var itemID : Int = 0
@@ -20,9 +21,6 @@ class ItemDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(animated: Bool) {

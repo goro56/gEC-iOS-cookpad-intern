@@ -20,6 +20,12 @@ class RecommendedItemsViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tabBarItem = UITabBarItem(
+            title: "おすすめ",
+            image: UIImage.fontAwesomeIconWithName(.Star, textColor: UIColor.blackColor(), size: CGSizeMake(30, 30)),
+            selectedImage: UIImage.fontAwesomeIconWithName(.Star, textColor: UIColor.blueColor(), size: CGSizeMake(30, 30))
+        )
+        
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = RecommendedItemCell.height
     }
