@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AC3F28741D629A4600703F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28731D629A4600703F95 /* AppDelegate.swift */; };
-		AC3F28761D629A4600703F95 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28751D629A4600703F95 /* FirstViewController.swift */; };
-		AC3F28781D629A4600703F95 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28771D629A4600703F95 /* SecondViewController.swift */; };
 		AC3F287B1D629A4600703F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F28791D629A4600703F95 /* Main.storyboard */; };
 		AC3F287D1D629A4600703F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3F287C1D629A4600703F95 /* Assets.xcassets */; };
 		AC3F28801D629A4600703F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3F287E1D629A4600703F95 /* LaunchScreen.storyboard */; };
+		AC3F288B1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */; };
+		AC3F288D1D62A0A000703F95 /* RecommendedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */; };
+		AC3F288F1D62A8CB00703F95 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F288E1D62A8CB00703F95 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC3F28701D629A4600703F95 /* Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Market.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3F28731D629A4600703F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC3F28751D629A4600703F95 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AC3F28771D629A4600703F95 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AC3F287A1D629A4600703F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC3F287C1D629A4600703F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3F287F1D629A4600703F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3F28811D629A4600703F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemsViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemCell.swift; sourceTree = "<group>"; };
+		AC3F288E1D62A8CB00703F95 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,10 @@
 		AC3F28721D629A4600703F95 /* Market */ = {
 			isa = PBXGroup;
 			children = (
-				AC3F28891D629A7500703F95 /* ViewController */,
-				AC3F28881D629A6F00703F95 /* View */,
 				AC3F28871D629A6000703F95 /* Model */,
+				AC3F28881D629A6F00703F95 /* View */,
+				AC3F28891D629A7500703F95 /* ViewController */,
 				AC3F28731D629A4600703F95 /* AppDelegate.swift */,
-				AC3F28751D629A4600703F95 /* FirstViewController.swift */,
-				AC3F28771D629A4600703F95 /* SecondViewController.swift */,
 				AC3F28791D629A4600703F95 /* Main.storyboard */,
 				AC3F287C1D629A4600703F95 /* Assets.xcassets */,
 				AC3F287E1D629A4600703F95 /* LaunchScreen.storyboard */,
@@ -73,6 +73,7 @@
 		AC3F28871D629A6000703F95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AC3F288E1D62A8CB00703F95 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -80,6 +81,7 @@
 		AC3F28881D629A6F00703F95 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,6 +89,7 @@
 		AC3F28891D629A7500703F95 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				AC3F288A1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -162,9 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3F28781D629A4600703F95 /* SecondViewController.swift in Sources */,
+				AC3F288F1D62A8CB00703F95 /* Item.swift in Sources */,
+				AC3F288B1D629D7000703F95 /* RecommendedItemsViewControllerTableViewController.swift in Sources */,
 				AC3F28741D629A4600703F95 /* AppDelegate.swift in Sources */,
-				AC3F28761D629A4600703F95 /* FirstViewController.swift in Sources */,
+				AC3F288D1D62A0A000703F95 /* RecommendedItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
