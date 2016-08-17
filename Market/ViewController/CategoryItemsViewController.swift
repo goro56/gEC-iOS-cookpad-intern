@@ -45,6 +45,17 @@ class CategoryItemsViewController: UICollectionViewController {
             }
         }
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let destination = segue.destinationViewController as? ItemDetailsViewController {
+            guard let selectedIndexPath = collectionView?.indexPathsForSelectedItems()?.first else {
+                return
+            }
+            
+            let item = items[selectedIndexPath.row]
+            destination.itemID = item.id
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

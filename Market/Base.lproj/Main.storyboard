@@ -187,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="56Q-1U-00s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2448" y="0.0"/>
+            <point key="canvasLocation" x="3316" y="0.0"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f4T-M7-daA">
@@ -297,6 +297,7 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njm-pA-sds">
                                             <rect key="frame" x="8" y="71" width="84" height="21"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -314,6 +315,7 @@
                                 <connections>
                                     <outlet property="nameLabel" destination="njm-pA-sds" id="gPQ-7Q-c9r"/>
                                     <outlet property="thumbnailImageView" destination="LFP-gO-YwH" id="Z4Q-aV-Qyw"/>
+                                    <segue destination="AOh-lH-cSC" kind="show" id="kIn-w4-tsp"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -347,4 +349,7 @@
             <point key="canvasLocation" x="808" y="900"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="kIn-w4-tsp"/>
+    </inferredMetricsTieBreakers>
 </document>
