@@ -27,6 +27,9 @@
 		AC3F28A71D62F73E00703F95 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28A61D62F73E00703F95 /* CategoriesCell.swift */; };
 		AC3F28A91D62F7C100703F95 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28A81D62F7C100703F95 /* Category.swift */; };
 		AC3F28AB1D62F83400703F95 /* CategriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28AA1D62F83400703F95 /* CategriesRequest.swift */; };
+		AC3F28AD1D6300A400703F95 /* CategoryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28AC1D6300A400703F95 /* CategoryItemsViewController.swift */; };
+		AC3F28AF1D63020C00703F95 /* CategoryItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28AE1D63020C00703F95 /* CategoryItemsCell.swift */; };
+		AC3F28B11D63024000703F95 /* CategoryItemsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28B01D63024000703F95 /* CategoryItemsRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		AC3F28A61D62F73E00703F95 /* CategoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
 		AC3F28A81D62F7C100703F95 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		AC3F28AA1D62F83400703F95 /* CategriesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategriesRequest.swift; sourceTree = "<group>"; };
+		AC3F28AC1D6300A400703F95 /* CategoryItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemsViewController.swift; sourceTree = "<group>"; };
+		AC3F28AE1D63020C00703F95 /* CategoryItemsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemsCell.swift; sourceTree = "<group>"; };
+		AC3F28B01D63024000703F95 /* CategoryItemsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemsRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				AC3F289E1D62D21100703F95 /* RecommendedItemsRequest.swift */,
 				AC3F28A21D62E5E400703F95 /* ItemRequest.swift */,
 				AC3F28AA1D62F83400703F95 /* CategriesRequest.swift */,
+				AC3F28B01D63024000703F95 /* CategoryItemsRequest.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			children = (
 				AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */,
 				AC3F28A61D62F73E00703F95 /* CategoriesCell.swift */,
+				AC3F28AE1D63020C00703F95 /* CategoryItemsCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -130,6 +138,7 @@
 				AC3F288A1D629D7000703F95 /* RecommendedItemsViewController.swift */,
 				AC3F28A01D62DFD500703F95 /* ItemDetailsViewController.swift */,
 				AC3F28A41D62F71D00703F95 /* CategoriesViewController.swift */,
+				AC3F28AC1D6300A400703F95 /* CategoryItemsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -242,11 +251,14 @@
 			files = (
 				AC3F28A71D62F73E00703F95 /* CategoriesCell.swift in Sources */,
 				AC3F28AB1D62F83400703F95 /* CategriesRequest.swift in Sources */,
+				AC3F28AF1D63020C00703F95 /* CategoryItemsCell.swift in Sources */,
 				AC3F288F1D62A8CB00703F95 /* Item.swift in Sources */,
 				AC3F288B1D629D7000703F95 /* RecommendedItemsViewController.swift in Sources */,
 				AC3F28A51D62F71D00703F95 /* CategoriesViewController.swift in Sources */,
 				AC3F289F1D62D21100703F95 /* RecommendedItemsRequest.swift in Sources */,
+				AC3F28AD1D6300A400703F95 /* CategoryItemsViewController.swift in Sources */,
 				AC3F28741D629A4600703F95 /* AppDelegate.swift in Sources */,
+				AC3F28B11D63024000703F95 /* CategoryItemsRequest.swift in Sources */,
 				AC3F28A31D62E5E400703F95 /* ItemRequest.swift in Sources */,
 				AC3F289D1D62D16800703F95 /* MarketRequestType.swift in Sources */,
 				AC3F28A11D62DFD500703F95 /* ItemDetailsViewController.swift in Sources */,

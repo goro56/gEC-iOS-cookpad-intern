@@ -1,5 +1,5 @@
 //
-//  CategoriesViewCell.swift
+//  CategoryItemCell.swift
 //  Market
 //
 //  Created by hayato-shimoji on 2016/08/16.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class CategoriesCell: UITableViewCell {
+class CategoryItemsCell: UICollectionViewCell {
+    
     @IBOutlet weak var thumbnailImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
-    func update(withCategory category: Category) {
-        nameLabel.text = category.name
-        thumbnailImageView.sd_setImageWithURL(category.imageURL)
+    func update(withItem item: Item) {
+        nameLabel.text = item.name
+        thumbnailImageView.sd_setImageWithURL(item.imageURL)
     }
 }
