@@ -32,6 +32,7 @@
 		AC3F28B11D63024000703F95 /* CategoryItemsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28B01D63024000703F95 /* CategoryItemsRequest.swift */; };
 		AC3F28B51D65545900703F95 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28B41D65545900703F95 /* Cart.swift */; };
 		AC3F28B91D655C9800703F95 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28B81D655C9800703F95 /* CartViewController.swift */; };
+		AC3F28BD1D65C38B00703F95 /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F28BC1D65C38B00703F95 /* CartCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		AC3F28B01D63024000703F95 /* CategoryItemsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItemsRequest.swift; sourceTree = "<group>"; };
 		AC3F28B41D65545900703F95 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		AC3F28B81D655C9800703F95 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		AC3F28BC1D65C38B00703F95 /* CartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				AC3F288C1D62A0A000703F95 /* RecommendedItemCell.swift */,
 				AC3F28A61D62F73E00703F95 /* CategoriesCell.swift */,
 				AC3F28AE1D63020C00703F95 /* CategoryItemsCell.swift */,
+				AC3F28BC1D65C38B00703F95 /* CartCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				AC3F288B1D629D7000703F95 /* RecommendedItemsViewController.swift in Sources */,
 				AC3F28A51D62F71D00703F95 /* CategoriesViewController.swift in Sources */,
 				AC3F289F1D62D21100703F95 /* RecommendedItemsRequest.swift in Sources */,
+				AC3F28BD1D65C38B00703F95 /* CartCell.swift in Sources */,
 				AC3F28AD1D6300A400703F95 /* CategoryItemsViewController.swift in Sources */,
 				AC3F28741D629A4600703F95 /* AppDelegate.swift in Sources */,
 				AC3F28B11D63024000703F95 /* CategoryItemsRequest.swift in Sources */,
