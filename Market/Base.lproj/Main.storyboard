@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-1260" y="731"/>
         </scene>
-        <!--Cart View Controller-->
+        <!--カート-->
         <scene sceneID="OPG-fm-YDg">
             <objects>
                 <tableViewController id="Y8C-nl-vSu" customClass="CartViewController" customModule="Market" customModuleProvider="target" sceneMemberID="viewController">
@@ -105,7 +105,7 @@
                             <outlet property="delegate" destination="Y8C-nl-vSu" id="hau-Ca-8Lk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="ZCt-pj-KGw"/>
+                    <navigationItem key="navigationItem" title="カート" id="ZCt-pj-KGw"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8q-Ke-TSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
