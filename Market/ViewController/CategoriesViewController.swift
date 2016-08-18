@@ -16,15 +16,19 @@ class CategoriesViewController: UITableViewController {
             tableView.reloadData()
         }
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
         self.tabBarItem = UITabBarItem(
             title: "カテゴリ",
             image: UIImage.fontAwesomeIconWithName(.Book, textColor: UIColor.blackColor(), size: CGSizeMake(30, 30)),
             selectedImage: UIImage.fontAwesomeIconWithName(.Book, textColor: UIColor.blueColor(), size: CGSizeMake(30, 30))
         )
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
     
     override func viewWillAppear(animated: Bool) {
